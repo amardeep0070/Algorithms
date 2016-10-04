@@ -12,7 +12,7 @@ public class Solution_two {
             }
             System.out.println(h.toString());
             for(int i=0; i<nums.length;i++){
-                h.remove(nums[i]);
+              //  h.remove(nums[i]);
                // System.out.println(nums[i]);
                 if(h.containsKey(target-nums[i])){
                     System.out.println("nums is" + nums[i]);
@@ -21,7 +21,7 @@ public class Solution_two {
                     //System.out.println(Sum[0]+"   " + Sum[1]);
                     break;
                 }
-                h.put(nums[i],i);
+              //  h.put(nums[i],i);
             }
 			return Sum;
     }
